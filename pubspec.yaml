@@ -5,7 +5,7 @@ homepage: https://github.com/Mr-Cai/dart_pro
 author: 蔡凯歌 <caikaige.g@gmail.com>
 
 environment:
-  sdk: '>=2.5.0 <3.0.0'
+  sdk: '>=2.6.0-dev.1.0 <3.0.0'
 
 dependencies:
   path: 
