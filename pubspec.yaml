@@ -1,15 +1,15 @@
 name: dart_pro
-description: A sample command-line application.
-# version: 1.0.0
-# homepage: https://www.example.com
-# author: 蔡凯歌 <caikaige.g@gmail.com>
+description: Dart语言学习项目
+version: 1.0.0
+homepage: https://github.com/Mr-Cai/dart_pro
+author: 蔡凯歌 <caikaige.g@gmail.com>
 
 environment:
   sdk: '>=2.5.0 <3.0.0'
 
-#dependencies:
-#  path: ^1.6.0
+dependencies:
+  path: 
 
 dev_dependencies:
-  pedantic: ^1.8.0
-  test: ^1.6.0
+  pedantic: 
+  test: 
