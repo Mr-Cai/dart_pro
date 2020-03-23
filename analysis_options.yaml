@@ -1,5 +1,5 @@
-# 抑制规则: https://github.com/dart-lang/pedantic#enabled-lints.
 include: package:pedantic/analysis_options.yaml
+# 抑制规则: https://github.com/dart-lang/pedantic#enabled-lints.
 # 抑制规则文档: https://dart-lang.github.io/linter/lints.
 # 取消注释启用抑制规则:
 # linter:
