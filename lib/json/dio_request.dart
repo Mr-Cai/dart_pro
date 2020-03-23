@@ -1,11 +1,11 @@
+import 'package:dart_pro/data/local_asset.dart';
 import 'package:dart_pro/json/model/list_model.dart';
 import 'package:dio/dio.dart';
 
 Future<ListResponse> request() async {
-  var dio = Dio();
-  var response = await dio.get<Map>(
-    'http://www.mocky.io/v2/5e77a6ec330000773a09a04d',
-  );
+  final options = BaseOptions(baseUrl: ListURL);
+  var dio = Dio(options);
+  var response = await dio.get<Map>('/');
   return ListResponse.fromJson(response.data);
 }
 
